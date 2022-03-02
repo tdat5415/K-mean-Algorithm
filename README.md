@@ -88,6 +88,9 @@ centroids = get_centroids(all_dot, num=3, epoch=10)
 split_dots = split_all_dot(all_dot, centroids)
 ```
 
+num은 그룹 갯수이며, epoch는 값이 높을수록 중앙좌표를 더 정확히 구한다.  
+10이면 충분하다.
+
 ---
 
 #### 확인하기
